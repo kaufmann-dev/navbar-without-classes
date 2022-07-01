@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Navbar</title>
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sus-amogus/sus-amogus.github.io/css/amogus.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-    <body>
-        <div class="topnav" id="myTopnav">
-            <div class="container">
-                <a href="javascript:;" class="active"><span class="material-icons">home</span> Home</a>
-                <a href="#about"><span class="material-icons">info</span> About</a>
-                <a href="#news" class="float-right"><span class="material-icons">shopping_cart</span> Shopping cart</a>
+<head>
+	<meta charset="utf-8">
+	<title>Dropdown Navbar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
 
-                <a href="javascript:void(0);" class="icon" onclick="ToggleNav()">&#9776;</a>
-            </div>
-        </div>
+	<h1>Dropdown Navbar</h1>
 
-        <div class="container">
-            <h1>Content</h1>
-        </div>
+	<nav>
+		<a href="#">Home</a>
+		<div>
+			<button>Products</button>
+			<div>
+				<a href="#">Lorem Ipsum dolor</a>
+				<a href="#">Lorem</a>
+				<hr>
+      			<a href="#">Lorem Ipsum</a>
+    		</div>
+  		</div>
+  		<div>
+			<button>Books</button>
+			<div>
+				<a href="#">Lorem</a>
+				<hr>
+				<a href="#">Lorem Ipsum dolor</a>
+      			<a href="#">Lorem</a>
+      			<a href="#">Lorem Ipsum</a>
+    		</div>
+  		</div>
+  		<div>
+			<button>Links</button>
+			<div>
+				<a href="#">Lorem</a>
+				<a href="#">Lorem Ipsum</a>
+    		</div>
+  		</div>
+  		<a href="#">Contact</a>
+		<a href="#">About</a>
+	</nav>
 
-        <script src="myscript.js"></script>
-    </body>
+</body>
 </html>
-
-<!--
-    <div class="dropdown">
-        <button class="dropbtn">Dropdown
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-    </div>
--->
